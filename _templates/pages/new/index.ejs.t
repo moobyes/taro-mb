@@ -2,7 +2,7 @@
 to: src/pages/<%= name %>/index.jsx
 ---
 import React from 'react';
-import styles from './index.scss';
+import './index.scss';
 
 function <%= name %>(props) {
     return (
