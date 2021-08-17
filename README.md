@@ -34,10 +34,11 @@
 ## 如何使用
 
 ```bash
-git clone 'git仓库'
+git clone 'git@github.com:moobyes/taro-mb.git'
 
 yarn
 
 # 默认是三个页面，需要增加页面得先在app.config.js里面配置，然后：
-yarn run createPage page's name
+yarn run createPage  
+# 然后根据提示往下操作即可，添加的页面记得往app.config.js里的pages里添加
 ```
