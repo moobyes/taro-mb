@@ -20,9 +20,10 @@ const baseRequest = (url, options = {}) => {
       url,
     }).then(
       response => {
+        // 这里根据后端具体情况做修改
         const responseData = response || response.data
-        return responseData
-        // resolve(response?.data ?? response);
+        // return responseData
+        resolve(responseData);
       },
       err => {
         reject(err);
