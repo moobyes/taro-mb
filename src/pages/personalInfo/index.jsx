@@ -1,10 +1,12 @@
+import { View } from '@tarojs/components';
 import React from 'react';
 
 function PersonalInfo() {
+  console.log('wo ye lai  :>> ');
   return (
-    <div>
+    <View>
       PersonalInfo
-    </div>
+    </View>
   );
 }
 

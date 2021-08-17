@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
   "projectname": "taro_mb",
-  "description": "create mini app by taro with js",
+  "description": "weChat mini app",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,

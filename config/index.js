@@ -69,6 +69,16 @@ const config = {
         }
       }
     },
+    devServer: {
+      https: false,
+      port: 2021,
+      proxy: {
+        '/': {
+          target: 'https://xx.xx.com',
+          changeOrigin: true,
+        }
+      }
+    },
     // 小程序端
     weapp: {
       module: {

@@ -27,6 +27,7 @@
     "dev:qq": "npm run build:qq -- --watch",
     "dev:jd": "npm run build:jd -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
+    "watchBuild": "NODE_ENV=production taro build --type alipay --watch",
     "createPage": "hygen pages new"
   },
   "browserslist": [
@@ -37,6 +38,8 @@
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
+    "@rematch/core": "^2.0.1",
+    "@rematch/loading": "^2.0.1",
     "@tarojs/components": "3.3.0",
     "@tarojs/plugin-sass": "^2.2.10",
     "@tarojs/react": "3.3.0",
@@ -47,10 +50,14 @@
     "hygen": "^6.1.0",
     "lint-staged": "^11.0.1",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@tarojs/mini-runner": "3.3.0",
     "@tarojs/plugin-babel": "^2.2.10",
     "@tarojs/webpack-runner": "3.3.0",
@@ -67,9 +74,7 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "stylelint": "9.3.0",
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0"
+    "stylelint": "9.3.0"
   },
   "commitlint": {
     "extends": [

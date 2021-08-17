@@ -3,6 +3,7 @@ export default {
     'pages/index/index',
     'pages/orders/index',
     'pages/personalInfo/index',
+    'pages/orderList/index',
   ],
   window: {
     backgroundTextStyle: 'light',
