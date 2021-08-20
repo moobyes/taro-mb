@@ -1,3 +1,3 @@
 ---
-to: src/pages/<%= name %>/index.scss
+to: src/pages/<%= name %>/index.module.scss
 ---

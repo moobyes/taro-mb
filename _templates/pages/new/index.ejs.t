@@ -2,13 +2,14 @@
 to: src/pages/<%= name %>/index.jsx
 ---
 import React from 'react';
-import './index.scss';
+import { View } from '@tarojs/components'
+import styles from  './index.module.scss';
 
 function <%= name %>(props) {
     return (
-      <div>
+      <View>
         <%= name %>
-      </div>
+      </View>
     );
 }
-export default <%= name %>
+export default <%= name %>;
